@@ -5,6 +5,10 @@
         <title>EJS Engine</title>
     </head>
     <body>
-        <p>Node Express Image Upload and Resize Example</p>
+        <p>Image Upload</p>
+        <form method="post" action="upload/post" enctype="multipart/form-data">
+            <input type="file" name="image" /><br /><br />
+            <button type="submit" name="upload">Upload</button>
+        </form>
     </body>
 </html>
